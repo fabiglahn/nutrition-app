@@ -6,9 +6,8 @@ h1 {
   letter-spacing: -0.24px;
 }
 .boxes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  display: flex;
+  column-gap: 1rem;
 }
 
 .favorite-card {
