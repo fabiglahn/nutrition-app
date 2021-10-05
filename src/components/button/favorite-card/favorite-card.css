@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+
+.boxes {
+  display: flex;
+  gap: 1rem;
+}
+
+.favorite-card {
+  background-color: #fff2f0;
+  border-radius: 2em;
+  width: 8.25rem;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Signika;
+  font-size: 1.0625rem;
+  padding-top: 1.5rem;
+}
+
+.favorite-card svg {
+  padding-bottom: 0.75rem;
+}
+
+.favorite-card-veg {
+  background-color: #eff7ee;
+  border-radius: 2em;
+  width: 8.25rem;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Signika;
+  font-size: 1.0625rem;
+}
+
+.favorite-card-veg svg {
+  padding-bottom: 0.75rem;
+}
+.favorite-card-snacks {
+  background-color: #fff8eb;
+  border-radius: 2em;
+  width: 8.25rem;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Signika;
+  font-size: 1.0625rem;
+}
+
+.favorite-card-snacks svg {
+  padding-bottom: 0.75rem;
+}
+
+h1 {
+  font-family: Signika;
+  font-size: 1.375rem;
+  letter-spacing: -0.24px;
+}
