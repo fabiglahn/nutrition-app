@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #ff9385;
+  --color-secondary: #fff8ee;
+  --font-family-primary: "Signika", sans-serif;
+}
+
+.tabs {
+  font-family: var(--font-family-primary);
+  display: flex;
+  font-size: 1em;
+}
+
+.food {
+  background-color: var(--color-primary);
+  color: white;
+  width: 10em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.recipes {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  width: 10em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.food-inv {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  width: 10em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.recipes-inv {
+  background-color: var(--color-primary);
+  color: white;
+  width: 10em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
