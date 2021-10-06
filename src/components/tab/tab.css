@@ -18,9 +18,9 @@
 
 .tabs {
   font-family: var(--font-family-primary);
-  border-radius: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-radius: 2rem;
   text-align: center;
   overflow: hidden;
 }
