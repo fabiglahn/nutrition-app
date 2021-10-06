@@ -13,8 +13,8 @@
   --color-tertiary: #ffc0b8;
   --color-quaternary: #f4f4f4;
   --color-quinary: #fff8ee;
-  --color-senary: #C6C4DE;
-  --color-primary-text: #A9A9A9;
+  --color-senary: #c6c4de;
+  --color-primary-text: #a9a9a9;
   --color-secondary-text: #696969;
 }
 
@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  var(--font-family)
+  font-family: var(--font-family);
   margin: 0;
 }
 
@@ -33,5 +33,5 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  var(--font-family)
+  font-family: var(--font-family);
 }
