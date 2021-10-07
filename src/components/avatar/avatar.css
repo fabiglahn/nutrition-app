@@ -1,5 +1,7 @@
 .avatar {
   position: relative;
+  /*    height: 40vw;
+  width: 40vw; */
 }
 
 .avatar_image {
@@ -13,10 +15,11 @@
   height: 1.5rem;
   width: 1.5rem;
   background-color: var(--color-secondary-shade);
+  color: white;
   display: grid;
   place-items: center;
   position: absolute;
-  bottom: 0.5em;
-  right: 1.25em;
+  bottom: 5%;
+  right: 12%;
   outline: solid white;
 }
